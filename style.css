@@ -1,0 +1,590 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    
+}
+
+#background
+{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding-left: 10%;
+
+}
+#topleft
+{
+    width: 290px;
+    height: 250px;
+    position: absolute;
+    top: -13%;
+    left: -4%;
+}
+
+#bottomleft
+{
+    width: 25S0px;
+    height: 250px;
+    position: absolute;
+    bottom: -14px;
+    left: -2%;
+}
+
+#background h1
+{
+font-family: hadaki;
+ color: orange;
+ font-size: 80px;
+ position: absolute;
+ width: 38%;
+ bottom: 50%;
+ line-height: 82px;
+ letter-spacing: 2px;
+}
+#background p
+{
+    color: #4AAF52;
+    font-family: Gilroy ☞;
+    position: absolute;
+ width: 34%;
+ bottom: 35%;
+ line-height: 24px;
+}
+
+#button1
+{
+    width: 149px;
+    height: 39px;
+    background-color: #4CCB58;
+    position: absolute;
+ border-radius: 45px;
+ bottom: 26%;
+
+}
+#button1 a
+{
+    color: white;
+    font-size: 14px;
+    font-family: Gilroy ☞;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow:#4CCB58 ;
+    text-decoration: none;
+}
+
+#button2 
+{
+    width: 149px;
+    height: 39px;
+    background-color: transparent;
+    border-color:rgba(121, 121, 121, 0.534);
+    border-style: dashed;
+    border-width: 2px;
+    position: absolute;
+    
+ border-radius: 45px;
+ bottom: 26%;
+ left: 22%;
+}
+
+#button2 a
+{
+    color:#4CCB58;
+    font-size: 13px;
+    font-family: Gilroy ☞;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+  font-weight: 400;  
+  text-decoration: none;
+}
+#background i
+{  
+    position: absolute;
+    bottom: 27%;
+    left: 42%;
+color: rgba(0, 0, 0, 0.774);
+}
+
+#image1
+{
+    position: absolute;
+    left: 50%;
+    width:600px;
+    height: 600px;
+    
+}
+#image2
+
+{
+    position: absolute;
+    left: 61.5%;
+    bottom: 8%;
+    width:600px;
+    height: 600px;
+    
+}
+#logoline
+{
+    position: absolute;
+    bottom: 72%;
+    height: 43px;
+}
+#logo
+{
+    position: absolute;
+    bottom: 73%;
+    left: 10.5%;
+    width: 83px;
+    height: 33px;
+}
+#background>h4
+{
+    color: orange;
+    font-size: 15px;
+    font-family: Gilroy ☞;
+    position: absolute;
+    left: 61.5%;
+    bottom: 31.5%;
+    font-weight: 500;
+}
+
+#background h3
+{
+    color: orange;
+    font-size: 15px;
+    font-family: Gilroy ☞;
+    position: absolute;
+    left: 83%;
+    bottom: 19%;
+    font-weight: 500;
+}
+#background #nav 
+{
+    margin-top: 10px;
+    width: 100%;
+    height: 3%;
+    background-color: white;
+    display: flex;
+   align-items: center;
+
+}
+
+#background #nav a
+{
+   color:green;
+   font-size: 15px;
+    font-family: Gilroy ☞;
+margin-right: 110px;
+text-decoration: none;
+transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s ;
+}
+#background #nav a:hover
+{
+    transform: scale(1.3);
+
+}
+
+#search
+{
+    width: 13px;
+    height: 13px;
+    margin-left: 50%;
+}
+
+#nav #linebelow
+{
+    width: 43px;
+    height: 3px;
+    background-color: rgba(255, 166, 0, 0.781);
+position: absolute;
+left: 10%;
+top: 4.2%;
+}
+
+
+#secondpage
+{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding-left: 10%;
+    position: relative;
+}
+
+#image
+{
+    position: absolute;
+    left: 4px;
+    bottom: 10%;
+
+}
+
+#secondpage h1
+{
+    color: #788BF1;
+    font-family: Gilroy ☞;
+    position: absolute;
+    left: 55%;
+    bottom: 70%;
+    font-size:56px;
+}
+
+#secondpage p
+{
+    color: #4CCB56;
+    font-family: Gilroy ☞;
+    position: absolute;
+    left: 55%;
+    bottom: 53%;
+    font-size:23px;
+text-align: left;
+width: 45%;
+line-height: 30px;
+}
+
+#navyline
+{
+    width: 160px;
+    height: 8px;
+    background-color: #2e2953ce;
+    position: absolute;
+    left: 55%;
+    bottom: 79%;
+}
+
+
+#thirdpage
+{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding-left: 10%;
+    position: relative;
+}
+
+#thirdpage h1
+{
+    color: #788BF1;
+    font-family: Gilroy ☞;
+    position: absolute;
+    left: 8%;
+    bottom: 70%;
+    font-size:56px;
+}
+
+#thirdpage #image2
+{
+    width: 600px;
+}
+
+#thirdpage p
+{
+    color: #4CCB56;
+    font-family: Gilroy ☞;
+    position: absolute;
+    left: 8%;
+    bottom: 57%;
+    font-size:23px;
+text-align: left;
+width: 45%;
+line-height: 30px;
+}
+
+
+#thirdpage #orangeline
+{
+    width: 160px;
+    height: 8px;
+    background-color: orange;
+    position: absolute;
+    left: 8%;
+    bottom: 79%;
+}
+
+#fourthpage
+{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding-left: 10%;
+    position: relative;
+}
+
+#image3
+{
+    position: absolute;
+    left: 4px;
+    bottom: 30%;
+    width: 508px;
+
+}
+
+#fourthpage h1
+{
+    color: #788BF1;
+    font-family: Gilroy ☞;
+    position: absolute;
+    left: 55%;
+    bottom: 70%;
+    font-size:56px;
+}
+
+#fourthpage p
+{
+    color: #4CCB56;
+    font-family: Gilroy ☞;
+    position: absolute;
+    left: 55%;
+    bottom: 56%;
+    font-size:23px;
+text-align: left;
+width: 45%;
+line-height: 30px;
+}
+
+#greenline
+{
+    width: 160px;
+    height: 8px;
+    background-color: #2e2953ce;
+    position: absolute;
+    left: 55%;
+    bottom: 79%;
+}
+
+#Support
+{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    
+    position: relative;
+}
+
+#Support #phone 
+{
+    position: absolute;
+    right: 4px;
+    bottom: 15%;
+    width: 658px;
+
+}
+
+#Support h1{
+    color: #788BF1;
+    font-family: Gilroy ☞;
+    position: absolute;
+    left: 7.5%;
+    bottom: 75%;
+    font-size:56px;
+}
+
+
+#Support #block1
+{
+    position: absolute;
+     width: 400px;
+     height: 45px;
+     background-color: transparent;
+     border-style: solid;
+     border-color:rgba(0, 128, 0, 0.849);
+     border-width: 1px;
+     left: 7.5%;
+     bottom: 66%;
+     border-radius: 20px;
+}
+
+#Support #block2
+{
+    position: absolute;
+     width: 400px;
+     height: 45px;
+     background-color: transparent;
+     border-style: solid;
+     border-color:rgba(0, 128, 0, 0.829);
+     border-width: 1px;
+     left: 7.5%;
+     bottom: 55%;
+     border-radius: 20px;
+}
+
+#Support #block2 h3
+{
+    color: rgba(0, 0, 0, 0.301);
+    font-family: Gilroy ☞;
+    position: absolute;
+   text-align: left;
+   top: 9px;
+    font-size: 18px;
+left: 6px;
+}
+
+#Support #block1 h3
+{
+    color: rgba(0, 0, 0, 0.301);
+    font-family: Gilroy ☞;
+    position: absolute;
+   text-align: left;
+   top: 9px;
+    font-size: 18px;
+left: 6px;
+}
+
+#Support #block3
+{
+    position: absolute;
+    width: 180px;
+    height: 45px;
+    background-color:#4CCB58;
+    left: 7.5%;
+    bottom: 43%;
+    border-radius: 20px;
+}
+
+#Support #block3 h5
+{
+    color: white;
+    font-family: Gilroy ☞;
+    position: absolute;
+    font-size: small;
+    font-size: 18px;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 58%;
+box-shadow: blue;
+}
+
+#Support #end
+{
+    width: 100%;
+    height: 21%;
+    background-color: orange;
+    position: absolute;
+    bottom: 0%;
+}
+#end #endlogo
+{
+    position: absolute;
+    left: 7.5%;
+    top: 14px;
+
+}
+#end  p
+{
+     color: white;
+    font-family: Gilroy ☞;
+    position: absolute;
+    font-size: small;
+    font-size: 11px;
+    left: 7.5%;
+    top: 66px;
+    width: 7%;
+    font-weight: 300;
+
+}
+
+#end  h5{
+
+    
+    color:white;
+    font-family: Gilroy ☞;
+    position: absolute;
+    font-size: small;
+    font-size: 13px;
+    left: 7.5%;
+    bottom: 5px;
+    font-weight: 350;
+
+}
+
+#vline
+{
+    width: 3px;
+    height: 110px;
+    background-color:white;
+position: absolute;
+left: 16%;
+top: 8px;
+}
+
+#end #rightcontent
+{
+    width: 50%;
+    height: 100%;
+    background-color:orange;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+ display: flex;   
+   
+}
+#end #rightcontent a
+{
+    color:white;
+    font-family: Gilroy ☞;
+  margin-top: 15px;
+    font-size: small;
+    font-size: 13px;
+    font-weight: 350;
+    display: block;
+    line-height: 16px;
+    text-decoration: none;
+   
+}
+
+#end #rightcontent #bold
+
+{
+    color:white;
+    font-family: Gilroy ☞;
+  
+    font-size: small;
+    font-size: 13px;
+    font-weight: 650;
+
+}
+
+#end #rightcontent #right2
+{
+    position: absolute;
+    left: 12%;
+    margin-top: 1.5px;
+}
+#end #rightcontent #right2 #legal
+
+{
+    color:white;
+    font-family: Gilroy ☞;
+  
+    font-size: small;
+    font-size: 13px;
+    font-weight: 650;
+}
+
+#end #rightcontent #icons 
+{
+    position: absolute;
+    bottom: 3px;
+    left: 80%;
+    width: 100%;
+    
+}
+#end #rightcontent #icons img{
+    margin-left: 31px;
+
+}
